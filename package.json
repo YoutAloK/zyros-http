@@ -1,0 +1,26 @@
+{
+  "name": "zyros-http",
+  "version": "1.0.2",
+  "main": "dist/zyros.cjs.js",
+  "module": "dist/zyros.es.js",
+  "author": "Rustam.F",
+  "exports": {
+    "import": "./dist/zyros.es.js",
+    "require": "./dist/zyros.cjs.js"
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "axios": "^1.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^7.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "vite": "^7.0.6"
+  }
+}
